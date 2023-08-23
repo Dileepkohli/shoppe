@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+   
+    <link href="./React App2_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <script src="./React App2_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./React App2_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./React App2_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App2_files/bundle.js.download"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtFQUNFLGNBQWM7RUFDZCxvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRTtJQUNFLDRDQUE0QztFQUM5QztBQUNGOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGlCQUFpQjtFQUNqQixhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQix1QkFBdUI7RUFDdkIsNkJBQTZCO0VBQzdCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRTtJQUNFLHVCQUF1QjtFQUN6QjtFQUNBO0lBQ0UseUJBQXlCO0VBQzNCO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5BcHAtbG9nbyB7XG4gIGhlaWdodDogNDB2bWluO1xuICBwb2ludGVyLWV2ZW50czogbm9uZTtcbn1cblxuQG1lZGlhIChwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiBuby1wcmVmZXJlbmNlKSB7XG4gIC5BcHAtbG9nbyB7XG4gICAgYW5pbWF0aW9uOiBBcHAtbG9nby1zcGluIGluZmluaXRlIDIwcyBsaW5lYXI7XG4gIH1cbn1cblxuLkFwcC1oZWFkZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjgyYzM0O1xuICBtaW4taGVpZ2h0OiAxMDB2aDtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogY2FsYygxMHB4ICsgMnZtaW4pO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5BcHAtbGluayB7XG4gIGNvbG9yOiAjNjFkYWZiO1xufVxuXG5Aa2V5ZnJhbWVzIEFwcC1sb2dvLXNwaW4ge1xuICBmcm9tIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcbiAgfVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.tab{
+    list-style: none;
+    display: flex;
+    margin-left: -10px;
+}
+
+/* .main{
+
+    height:100vh;
+}
+.first{
+    background-image: linear-gradient(#B387E7,#6E17D6);
+    background-size: cover;
+    
+    
+    margin: 0px;
+    
+}
+.timeline{
+    width: 25px;
+    height: 25px;
+}
+.MuiInputLabel-root {
+    font-size: 25px !important;
+    padding-bottom: 20px !important;
+    
+  }
+  
+  .MuiInput-root {
+    height: 35px !important;
+    
+  }
+  .buttonfinal{
+    font-size: 20px;
+  }
+   .leftside{
+    border: black solid 2px;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 15px;
+    color: black;
+    width: 60px;
+  } 
+  .rightside{
+    border: black solid 2px;
+    border-radius: 0px 15px 15px 0px;
+    border-left: none;
+    font-size: 15px;
+    color: black;
+    width: 60px;
+  }
+  .middle{
+    border: black solid 2px;
+    border-radius: 0px;
+    font-size: 15px;
+    color: black;
+    width: 60px;
+    border-left: none;
+    
+
+  }
+  .rightsidelong{
+    border: black solid 2px;
+    border-radius: 0px 15px 15px 0px;
+    border-left: none;
+    font-size: 15px;
+    color: black;
+    width: 140px;
+  } */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9TdHlsZXMvdGVzdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxnQkFBZ0I7SUFDaEIsYUFBYTtJQUNiLGtCQUFrQjtBQUN0Qjs7QUFFQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztLQTZESyIsInNvdXJjZXNDb250ZW50IjpbIi50YWJ7XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIG1hcmdpbi1sZWZ0OiAtMTBweDtcclxufVxyXG5cclxuLyogLm1haW57XHJcblxyXG4gICAgaGVpZ2h0OjEwMHZoO1xyXG59XHJcbi5maXJzdHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgjQjM4N0U3LCM2RTE3RDYpO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIFxyXG4gICAgXHJcbiAgICBtYXJnaW46IDBweDtcclxuICAgIFxyXG59XHJcbi50aW1lbGluZXtcclxuICAgIHdpZHRoOiAyNXB4O1xyXG4gICAgaGVpZ2h0OiAyNXB4O1xyXG59XHJcbi5NdWlJbnB1dExhYmVsLXJvb3Qge1xyXG4gICAgZm9udC1zaXplOiAyNXB4ICFpbXBvcnRhbnQ7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMjBweCAhaW1wb3J0YW50O1xyXG4gICAgXHJcbiAgfVxyXG4gIFxyXG4gIC5NdWlJbnB1dC1yb290IHtcclxuICAgIGhlaWdodDogMzVweCAhaW1wb3J0YW50O1xyXG4gICAgXHJcbiAgfVxyXG4gIC5idXR0b25maW5hbHtcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICB9XHJcbiAgIC5sZWZ0c2lkZXtcclxuICAgIGJvcmRlcjogYmxhY2sgc29saWQgMnB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTVweCAwcHggMHB4IDE1cHg7XHJcbiAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB3aWR0aDogNjBweDtcclxuICB9IFxyXG4gIC5yaWdodHNpZGV7XHJcbiAgICBib3JkZXI6IGJsYWNrIHNvbGlkIDJweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweCAxNXB4IDE1cHggMHB4O1xyXG4gICAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB3aWR0aDogNjBweDtcclxuICB9XHJcbiAgLm1pZGRsZXtcclxuICAgIGJvcmRlcjogYmxhY2sgc29saWQgMnB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgd2lkdGg6IDYwcHg7XHJcbiAgICBib3JkZXItbGVmdDogbm9uZTtcclxuICAgIFxyXG5cclxuICB9XHJcbiAgLnJpZ2h0c2lkZWxvbmd7XHJcbiAgICBib3JkZXI6IGJsYWNrIHNvbGlkIDJweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweCAxNXB4IDE1cHggMHB4O1xyXG4gICAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB3aWR0aDogMTQwcHg7XHJcbiAgfSAqLyJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div><header class="p-2"><nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"><div class="container-fluid"><h2>Shopper</h2><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto"><li class="nav-item ms-4 p-2">Home</li><li class="nav-item ms-4 p-2">About</li><li class="nav-item ms-4 p-2">Contact</li></ul></div></div></nav><div><div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active"><img src="./React App2_files/1600w-J5VkNReQ8WA.642ab1ac6671a9d02d07.webp" class="d-block w-100" alt="..."></div><div class="carousel-item"><img src="./React App2_files/template-banner-online-store-with-shopping-cart-with-purchases-boxes-delivery-from-supermarket-vector-illustration_548887-104.28e5b300486a2f4cc54d.avif" class="d-block w-100" alt="..."></div><div class="carousel-item"><img src="./React App2_files/b7f5ce68ff3166b351a6e3c6ee934020.9a62da120289c1f1df11.jpg" class="d-block w-100" alt="..."></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div></header><section><div class="p-4 d-flex"><div class="btn btn-outline-dark m-2">All</div><div class="btn btn-outline-dark m-2">Men's Fashion</div><div class="btn btn-outline-dark m-2">Women's Fashion</div><div class="btn btn-outline-dark m-2">Elctronics</div><div class="btn btn-outline-dark m-2">Jewellary</div></div><div class="container-fluid p-2  d-flex flex-wrap"><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/81fPKd-2AYL._AC_SL1500_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</p><p>109.95</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Mens Casual Premium Slim Fit T-Shirts </p><p>22.3</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71li-ujtlUL._AC_UX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Mens Cotton Jacket</p><p>55.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71YXzeOuslL._AC_UY879_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Mens Casual Slim Fit</p><p>15.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</p><p>695</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Solid Gold Petite Micropave </p><p>168</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>White Gold Plated Princess</p><p>9.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Pierced Owl Rose Gold Plated Stainless Steel Double</p><p>10.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/61IBBVJvSDL._AC_SY879_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>WD 2TB Elements Portable External Hard Drive - USB 3.0 </p><p>64</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/61U7T1koQqL._AC_SX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</p><p>109</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71kWymZ+c+L._AC_SX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</p><p>109</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/61mtL65D4cL._AC_SX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</p><p>114</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/81QpkIctqPL._AC_SX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</p><p>599</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/81Zt42ioCgL._AC_SX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED </p><p>999.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/51Y5NI-I5jL._AC_UX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</p><p>56.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/81XH0e8fefL._AC_UY879_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</p><p>29.95</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71HblAHs5xL._AC_UY879_-2.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Rain Jacket Women Windbreaker Striped Climbing Raincoats</p><p>39.99</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/71z3kpMAYsL._AC_UY879_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>MBJ Women's Solid Short Sleeve Boat Neck V </p><p>9.85</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/51eg55uWmdL._AC_UX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>Opna Women's Short Sleeve Moisture</p><p>7.95</p></div></div><div class="card m-2" style="width: 295px; height: auto;"><div class="card-head pt-2" align="center"><img src="./React App2_files/61pHAEJ4NML._AC_UX679_.jpg" height="250" width="200"></div><div class="card-body" align="center"><p>DANVOUY Womens T Shirt Casual Cotton Short</p><p>12.99</p></div></div></div></section><footer class="p-5 text-white bg-dark">footer</footer></div></div></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
